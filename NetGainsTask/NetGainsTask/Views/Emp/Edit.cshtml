@@ -1,0 +1,132 @@
+﻿@model Employee
+@{
+}
+
+<div class="row">
+    <div class="col-md-8 mx-auto rounded border-3 p-3">
+        <h2 class="text-center mb-3">New Employee</h2>
+
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Id</label>
+                <div class="col-sm-8">
+                    <input class="form-control-plaintext" readonly value="@ViewData["empid"]" />
+                </div>
+            </div>
+
+
+
+            <!--FirstName-->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">First Name</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="FirstName" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+            </div>
+            <!--LastName-->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Last Name</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="LastName" />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+            </div>
+            <!--Dob-->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Date Of Birth</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="DOB" />
+                    <span asp-validation-for="DOB" class="text-danger"></span>
+                </div>
+            </div>
+            <!--Country-->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Country Name</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Country" />
+                    <span asp-validation-for="Country" class="text-danger"></span>
+                </div>
+            </div>
+            <!--State-->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">State</label>
+                <div class="col-sm-8">
+                    <select class="form-select" asp-for="State">
+                        <option value="">-- Select State --</option>
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Manipur">Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Odisha">Odisha</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Tripura">Tripura</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="Uttarakhand">Uttarakhand</option>
+                        <option value="West Bengal">West Bengal</option>
+                    </select>
+                    <span asp-validation-for="State" class="text-danger"></span>
+                </div>
+            </div>
+            <!--Qualification-->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Qualification</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Qualification" />
+                    <span asp-validation-for="Qualification" class="text-danger"></span>
+                </div>
+            </div>
+            
+
+            <!--Email-->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Email</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Email" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!--Phone no-->
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Phone Number</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="PhoneNo" />
+                    <span asp-validation-for="PhoneNo" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <!--Submit-->
+            <div class="row">
+                <div class="offset-sm-4 col-sm-4 d-grid">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                <div class="col-sm-4 d-grid">
+                    <a class="btn btn-outline-primary" asp-controller="Emp" asp-action="Index" role="button">Cancel</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

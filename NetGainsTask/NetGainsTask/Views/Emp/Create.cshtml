@@ -1,0 +1,103 @@
+﻿@model NetGainsTask.Models.Employee
+
+@{
+    ViewData["Title"] = "Create Employee";
+}
+
+<h2>Create Employee</h2>
+
+<form asp-action="Create" method="post">
+    <div class="row mb-3">
+        <label class="col-sm-4 col-form-label">First Name</label>
+        <div class="col-sm-8">
+            <input asp-for="FirstName" class="form-control" />
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-4 col-form-label">Last Name</label>
+        <div class="col-sm-8">
+            <input asp-for="LastName" class="form-control" />
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>
+    </div>
+
+    <!-- Country -->
+    <div class="row mb-3">
+        <label class="col-sm-4 col-form-label">Country</label>
+        <div class="col-sm-8">
+            <select id="Country" name="Country" asp-for="Country" class="form-select"
+                    asp-items="ViewBag.Countries">
+                <option value="">-- Select Country --</option>
+            </select>
+            <span asp-validation-for="Country" class="text-danger"></span>
+        </div>
+    </div>
+
+    <!-- State -->
+    <div class="row mb-3">
+        <label class="col-sm-4 col-form-label">State</label>
+        <div class="col-sm-8">
+            <select id="State" asp-for="State" class="form-select">
+                <option value="">-- Select State --</option>
+            </select>
+            <span asp-validation-for="State" class="text-danger"></span>
+        </div>
+    </div>
+
+    <!-- Email -->
+    <div class="row mb-3">
+        <label class="col-sm-4 col-form-label">Email</label>
+        <div class="col-sm-8">
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+    </div>
+
+    <!-- Phone -->
+    <div class="row mb-3">
+        <label class="col-sm-4 col-form-label">Phone</label>
+        <div class="col-sm-8">
+            <input asp-for="PhoneNo" class="form-control" />
+            <span asp-validation-for="PhoneNo" class="text-danger"></span>
+        </div>
+    </div>
+
+    <!-- Submit -->
+    <div class="row">
+        <div class="offset-sm-4 col-sm-4 d-grid">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div class="col-sm-4 d-grid">
+            <a class="btn btn-outline-primary" asp-controller="Emp" asp-action="Index" role="button">Cancel</a>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#Country').change(function () {
+                var countryCode = $(this).val();
+                if (countryCode) {
+                    $.getJSON('/Emp/GetStates?countryCode=' + countryCode, function (data) {
+                        var stateDropdown = $('#State');
+                        stateDropdown.empty();
+                        stateDropdown.append('<option value="">-- Select State --</option>');
+                                $.each(data, function (i, state) {
+            // Use lowercase 'name' and 'iso2' (matches API)
+            stateDropdown.append('<option value="' + state.name + '">' + state.name + '</option>');
+
+        });
+
+                    });
+                }
+                else {
+                    $('#State').empty().append('<option value="">-- Select State --</option>');
+                }
+            });
+        });
+    </script>
+}
