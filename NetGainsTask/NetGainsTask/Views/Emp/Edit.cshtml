@@ -43,52 +43,33 @@
                     <span asp-validation-for="DOB" class="text-danger"></span>
                 </div>
             </div>
-            <!--Country-->
+
+
+            <!-- Country -->
             <div class="row mb-3">
-                <label class="col-sm-4 col-form-label">Country Name</label>
+                <label class="col-sm-4 col-form-label">Country</label>
                 <div class="col-sm-8">
-                    <input class="form-control" asp-for="Country" />
+                    <select id="Country" name="Country" asp-for="Country" class="form-select"
+                            asp-items="ViewBag.Countries">
+                        <option value="">-- Select Country --</option>
+                    </select>
                     <span asp-validation-for="Country" class="text-danger"></span>
                 </div>
             </div>
-            <!--State-->
+
+            <!-- State -->
             <div class="row mb-3">
                 <label class="col-sm-4 col-form-label">State</label>
                 <div class="col-sm-8">
-                    <select class="form-select" asp-for="State">
+                    <select id="State" asp-for="State" class="form-select">
                         <option value="">-- Select State --</option>
-                        <option value="Andhra Pradesh">Andhra Pradesh</option>
-                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-                        <option value="Assam">Assam</option>
-                        <option value="Bihar">Bihar</option>
-                        <option value="Chhattisgarh">Chhattisgarh</option>
-                        <option value="Goa">Goa</option>
-                        <option value="Gujarat">Gujarat</option>
-                        <option value="Haryana">Haryana</option>
-                        <option value="Himachal Pradesh">Himachal Pradesh</option>
-                        <option value="Jharkhand">Jharkhand</option>
-                        <option value="Karnataka">Karnataka</option>
-                        <option value="Kerala">Kerala</option>
-                        <option value="Madhya Pradesh">Madhya Pradesh</option>
-                        <option value="Maharashtra">Maharashtra</option>
-                        <option value="Manipur">Manipur</option>
-                        <option value="Meghalaya">Meghalaya</option>
-                        <option value="Mizoram">Mizoram</option>
-                        <option value="Nagaland">Nagaland</option>
-                        <option value="Odisha">Odisha</option>
-                        <option value="Punjab">Punjab</option>
-                        <option value="Rajasthan">Rajasthan</option>
-                        <option value="Sikkim">Sikkim</option>
-                        <option value="Tamil Nadu">Tamil Nadu</option>
-                        <option value="Telangana">Telangana</option>
-                        <option value="Tripura">Tripura</option>
-                        <option value="Uttar Pradesh">Uttar Pradesh</option>
-                        <option value="Uttarakhand">Uttarakhand</option>
-                        <option value="West Bengal">West Bengal</option>
                     </select>
                     <span asp-validation-for="State" class="text-danger"></span>
                 </div>
             </div>
+
+
+
             <!--Qualification-->
             <div class="row mb-3">
                 <label class="col-sm-4 col-form-label">Qualification</label>
@@ -130,3 +111,47 @@
         </form>
     </div>
 </div>
+
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var selectedCountry = "@Model.Country";
+            var selectedState = "@Model.State";
+
+            // If country already saved, load states immediately
+            if (selectedCountry) {
+                $.getJSON('/Emp/GetStates?countryCode=' + selectedCountry, function (data) {
+                    var stateDropdown = $('#State');
+                    stateDropdown.empty();
+                    stateDropdown.append('<option value="">-- Select State --</option>');
+                    $.each(data, function (i, state) {
+                        var option = $('<option>', { value: state.name, text: state.name });
+                        if (state.name === selectedState) {
+                            option.attr("selected", "selected");
+                        }
+                        stateDropdown.append(option);
+                    });
+                });
+            }
+
+            // On country change
+            $('#Country').change(function () {
+                var countryCode = $(this).val();
+                if (countryCode) {
+                    $.getJSON('/Emp/GetStates?countryCode=' + countryCode, function (data) {
+                        var stateDropdown = $('#State');
+                        stateDropdown.empty();
+                        stateDropdown.append('<option value="">-- Select State --</option>');
+                        $.each(data, function (i, state) {
+                            stateDropdown.append('<option value="' + state.name + '">' + state.name + '</option>');
+                        });
+                    });
+                } else {
+                    $('#State').empty().append('<option value="">-- Select State --</option>');
+                }
+            });
+        });
+    </script>
+}

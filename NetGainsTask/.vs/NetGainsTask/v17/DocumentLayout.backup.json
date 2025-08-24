@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|c:\\users\\awale\\source\\repos\\netgainstask\\netgainstask\\views\\emp\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|solutionrelative:netgainstask\\views\\emp\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|c:\\users\\awale\\source\\repos\\netgainstask\\netgainstask\\models\\apimodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|solutionrelative:netgainstask\\models\\apimodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|c:\\users\\awale\\source\\repos\\netgainstask\\netgainstask\\views\\emp\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|solutionrelative:netgainstask\\views\\emp\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|c:\\users\\awale\\source\\repos\\netgainstask\\netgainstask\\controllers\\empcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|solutionrelative:netgainstask\\controllers\\empcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +23,8 @@
       "RelativeMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|solutionrelative:netgainstask\\views\\emp\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|c:\\users\\awale\\source\\repos\\netgainstask\\netgainstask\\models\\apimodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|solutionrelative:netgainstask\\models\\apimodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|c:\\users\\awale\\source\\repos\\netgainstask\\netgainstask\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|solutionrelative:netgainstask\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|c:\\users\\awale\\source\\repos\\netgainstask\\netgainstask\\empdb\\dbcontextfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,22 +43,6 @@
       "RelativeMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|solutionrelative:netgainstask\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|c:\\users\\awale\\source\\repos\\netgainstask\\netgainstask\\views\\emp\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|solutionrelative:netgainstask\\views\\emp\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|c:\\users\\awale\\source\\repos\\netgainstask\\netgainstask\\views\\emp\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|solutionrelative:netgainstask\\views\\emp\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|c:\\users\\awale\\source\\repos\\netgainstask\\netgainstask\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|solutionrelative:netgainstask\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Migrations\\20250820092739_initnew2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NetGainsTask\\Migrations\\20250820092739_initnew2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|c:\\users\\awale\\source\\repos\\netgainstask\\netgainstask\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|solutionrelative:netgainstask\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -61,6 +57,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|c:\\users\\awale\\source\\repos\\netgainstask\\netgainstask\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|solutionrelative:netgainstask\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|c:\\users\\awale\\source\\repos\\netgainstask\\netgainstask\\migrations\\20250820092739_initnew2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CE8135-08C8-4494-BED8-6FEE0AB61407}|NetGainsTask\\NetGainsTask.csproj|solutionrelative:netgainstask\\migrations\\20250820092739_initnew2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 267,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,72 +86,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "APIModels.cs",
-              "DocumentMoniker": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Models\\APIModels.cs",
-              "RelativeDocumentMoniker": "NetGainsTask\\Models\\APIModels.cs",
-              "ToolTip": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Models\\APIModels.cs",
-              "RelativeToolTip": "NetGainsTask\\Models\\APIModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T11:30:22.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Views\\Emp\\Create.cshtml",
-              "RelativeDocumentMoniker": "NetGainsTask\\Views\\Emp\\Create.cshtml",
-              "ToolTip": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Views\\Emp\\Create.cshtml",
-              "RelativeToolTip": "NetGainsTask\\Views\\Emp\\Create.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAGEAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-19T11:52:44.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Views\\Emp\\Edit.cshtml",
               "RelativeDocumentMoniker": "NetGainsTask\\Views\\Emp\\Edit.cshtml",
               "ToolTip": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Views\\Emp\\Edit.cshtml",
               "RelativeToolTip": "NetGainsTask\\Views\\Emp\\Edit.cshtml",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAowIMAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-19T11:52:27.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\appsettings.json",
-              "RelativeDocumentMoniker": "NetGainsTask\\appsettings.json",
-              "ToolTip": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\appsettings.json",
-              "RelativeToolTip": "NetGainsTask\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-19T10:41:37.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Views\\Emp\\Index.cshtml",
               "RelativeDocumentMoniker": "NetGainsTask\\Views\\Emp\\Index.cshtml",
               "ToolTip": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Views\\Emp\\Index.cshtml",
               "RelativeToolTip": "NetGainsTask\\Views\\Emp\\Index.cshtml",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAowDkAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-19T11:13:17.368Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "EmpController.cs",
+              "DocumentMoniker": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Controllers\\EmpController.cs",
+              "RelativeDocumentMoniker": "NetGainsTask\\Controllers\\EmpController.cs",
+              "ToolTip": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Controllers\\EmpController.cs",
+              "RelativeToolTip": "NetGainsTask\\Controllers\\EmpController.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAgwEwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T11:04:49.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Views\\Emp\\Create.cshtml",
+              "RelativeDocumentMoniker": "NetGainsTask\\Views\\Emp\\Create.cshtml",
+              "ToolTip": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Views\\Emp\\Create.cshtml",
+              "RelativeToolTip": "NetGainsTask\\Views\\Emp\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T11:52:44.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "NetGainsTask\\Views\\Shared\\_Layout.cshtml",
@@ -159,12 +146,11 @@
               "RelativeToolTip": "NetGainsTask\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-20T07:54:40.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T07:54:40.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Program.cs",
               "RelativeDocumentMoniker": "NetGainsTask\\Program.cs",
@@ -172,51 +158,60 @@
               "RelativeToolTip": "NetGainsTask\\Program.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAowB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T10:55:07.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T10:55:07.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmpController.cs",
-              "DocumentMoniker": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Controllers\\EmpController.cs",
-              "RelativeDocumentMoniker": "NetGainsTask\\Controllers\\EmpController.cs",
-              "ToolTip": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Controllers\\EmpController.cs",
-              "RelativeToolTip": "NetGainsTask\\Controllers\\EmpController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T11:04:49.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "DbContextFile.cs",
               "DocumentMoniker": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\EmpDb\\DbContextFile.cs",
               "RelativeDocumentMoniker": "NetGainsTask\\EmpDb\\DbContextFile.cs",
               "ToolTip": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\EmpDb\\DbContextFile.cs",
               "RelativeToolTip": "NetGainsTask\\EmpDb\\DbContextFile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T10:50:13.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T10:50:13.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "NetGainsTask\\Models\\Employee.cs",
               "ToolTip": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Models\\Employee.cs",
               "RelativeToolTip": "NetGainsTask\\Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T10:46:03.934Z",
+              "WhenOpened": "2025-08-19T10:46:03.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "APIModels.cs",
+              "DocumentMoniker": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Models\\APIModels.cs",
+              "RelativeDocumentMoniker": "NetGainsTask\\Models\\APIModels.cs",
+              "ToolTip": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Models\\APIModels.cs",
+              "RelativeToolTip": "NetGainsTask\\Models\\APIModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T11:30:22.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\appsettings.json",
+              "RelativeDocumentMoniker": "NetGainsTask\\appsettings.json",
+              "ToolTip": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\appsettings.json",
+              "RelativeToolTip": "NetGainsTask\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-19T10:41:37.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "20250820092739_initnew2.cs",
               "DocumentMoniker": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Migrations\\20250820092739_initnew2.cs",
               "RelativeDocumentMoniker": "NetGainsTask\\Migrations\\20250820092739_initnew2.cs",
@@ -224,12 +219,11 @@
               "RelativeToolTip": "NetGainsTask\\Migrations\\20250820092739_initnew2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T09:27:39.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T09:27:39.306Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "NetGainsTask\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -237,12 +231,11 @@
               "RelativeToolTip": "NetGainsTask\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-20T07:54:42.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T07:54:42.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "NetGainsTask\\Views\\Shared\\Error.cshtml",
@@ -250,12 +243,11 @@
               "RelativeToolTip": "NetGainsTask\\Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-20T07:54:56.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T07:54:56.024Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "NetGainsTask\\Views\\_ViewImports.cshtml",
@@ -263,12 +255,11 @@
               "RelativeToolTip": "NetGainsTask\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-20T07:55:08.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T07:55:08.423Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\awale\\source\\repos\\NetGainsTask\\NetGainsTask\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "NetGainsTask\\Views\\_ViewStart.cshtml",
@@ -276,8 +267,7 @@
               "RelativeToolTip": "NetGainsTask\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-20T07:55:13.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-20T07:55:13.476Z"
             }
           ]
         },

@@ -123,9 +123,14 @@ namespace NetGainsTask.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
+            // Load countries from API
+            var countries = await GetCountriesAsync();
+            ViewBag.Countries = new SelectList(countries, "Iso2", "Name", employee.Country);
+
             ViewData["empid"] = employee.Id;
             return View(employee);
         }
+
 
         // Edit (POST)
         [HttpPost]
